@@ -35,7 +35,7 @@ const projects = [
   {
     title: 'SwapiBox',
     description:
-      'SwapiBox is a single page application utilizing the Star Wars API.  A user can browse vehicles, people, and planets in the star wars universe and choose their favorites.',
+      'SwapiBox is a single page app utilizing the Star Wars API.  A user can browse vehicles, people, and planets from the star wars universe. The user can then select and deselect favorites and access them locally.',
     tech: ['React', 'Router', 'Enzyme', 'Jest'],
     image: './images/swapi.png',
     github: 'https://github.com/codytaft/swapibox',
@@ -44,7 +44,7 @@ const projects = [
   {
     title: 'Who Were You',
     description:
-      'This is a single-page application with a back end built in postgres with scraped data from onthisday.com A user enters their birthday to determine if anyone died on that day, so they could potentialy be their reincarnation. Users can save the reincarnation and add notes to the person.',
+      'This is a single-page app with a back-end built in postgres with scraped data from onthisday.com. A user enters their birthday to determine if anyone died on that day, then displaying the person they were "reincarnated" as.',
     tech: [
       'Vanilla JS',
       'React',
