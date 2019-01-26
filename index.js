@@ -98,6 +98,9 @@ function slideBack() {
   if (currentSlide > 0) {
     currentSlide--;
     renderSlide(projects[currentSlide]);
+  } else if (currentSlide === 0) {
+    currentSlide = projects.length - 1;
+    renderSlide(projects[currentSlide]);
   }
 }
 
@@ -106,6 +109,9 @@ right.addEventListener('click', slideForward);
 function slideForward() {
   if (currentSlide < projects.length - 1) {
     currentSlide++;
+    renderSlide(projects[currentSlide]);
+  } else if (currentSlide === projects.length - 1) {
+    currentSlide = 0;
     renderSlide(projects[currentSlide]);
   }
 }
