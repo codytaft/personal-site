@@ -1,0 +1,299 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('./images/codytrees.jpg') no-repeat center center;
+  height: 30rem;
+  background-size: cover;
+}
+
+.hero-inner {
+  display: flex;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -webkit-box-shadow: 10px 10px 66px -25px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 66px -25px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 66px -25px rgba(0, 0, 0, 0.75);
+  border: 1px solid #3f484e;
+}
+
+.hero-info {
+  margin-left: 3.5rem;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+  font-size: 4rem;
+  font-weight: 300;
+}
+
+h3 {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 1.3rem;
+  font-size: 3rem;
+  padding: 0;
+}
+
+a:nth-child(1) {
+  margin-left: 0;
+}
+
+.resume-link {
+  padding: 0.6rem 0.8rem;
+  background: none;
+  color: #fff;
+
+  margin-left: 1.3rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+
+.divider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 1rem;
+
+  width: 90%;
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.divider-line {
+  height: 2px;
+  background-color: #fff;
+  width: 45%;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #888d9b;
+}
+
+.section-title {
+  font-size: 2.6rem;
+  font-weight: 300;
+  margin-top: 3rem;
+}
+
+.skills-inner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+  width: 80%;
+  margin-bottom: 3rem;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+
+  /* min-width: 760px; */
+  position: relative;
+  color: #fff;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.arrow {
+  color: #fff;
+  position: absolute;
+  font-size: 2rem;
+}
+
+.left {
+  top: 50%;
+  left: 1rem;
+}
+
+.right {
+  top: 50%;
+  right: 1rem;
+}
+
+.carousel-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+}
+
+.project {
+  width: 100%;
+}
+
+.tech {
+  margin-top: 0;
+  font-style: italic;
+}
+
+.project h3 {
+  margin-bottom: 0.5rem;
+}
+
+.project p {
+  font-size: 1rem;
+}
+
+.project img {
+  height: 250px;
+  margin-bottom: 2rem;
+}
+
+.project a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 1rem;
+  font-size: 1.6rem;
+}
+
+.project a:nth-child(1) {
+  margin-left: 0;
+}
+
+.live-link {
+  display: inline-block;
+  padding: 0 1rem;
+  background: none;
+  color: crimson;
+
+  margin-left: 1.3rem;
+  font-size: 1.4rem;
+  border-radius: 5px;
+  border: 1px solid #fff;
+}
+
+.dots {
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+}
+
+.dots i {
+  margin-right: 0.8rem;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #888d9b;
+}
+
+.education-inner {
+  width: 80%;
+}
+
+.education h3 {
+  margin-bottom: 0;
+}
+
+.naropa {
+  margin-top: 3rem;
+}
+
+.education p:last-child {
+  margin-bottom: 3rem;
+}
+
+.background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  color: #fff;
+  height: 550px;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url('./images/ogdenLow.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.background-inner {
+  position: absolute;
+  bottom: 1rem;
+  width: 80%;
+  height: 150px;
+  padding: 0 0.8rem;
+  overflow: scroll;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+@media only screen and (max-width: 650px) {
+  .hero-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 2rem 0;
+  }
+  .hero-info h1 {
+    font-size: 3rem;
+  }
+  .project img {
+    height: 175px;
+  }
+  .left {
+    left: 0.5rem;
+  }
+  .right {
+    right: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .carousel-inner {
+    width: 75%;
+  }
+  .project img {
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .skills-inner {
+    grid-template-columns: 1fr;
+  }
+}
