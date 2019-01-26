@@ -238,7 +238,7 @@ a:nth-child(1) {
   align-items: center;
   position: relative;
   color: #fff;
-  height: 550px;
+  height: 300px;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url('./images/ogdenLow.jpg') no-repeat center center;
   background-size: cover;
