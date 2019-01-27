@@ -10,9 +10,11 @@ body {
   justify-content: center;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('./images/codytrees.jpg') no-repeat center center;
+    url('./images/codytrees.jpg') no-repeat center top;
   height: 30rem;
-  background-size: cover;
+  background-size: contain;
+
+  background-attachment: fixed;
 }
 
 .hero-inner {
@@ -31,7 +33,7 @@ body {
 
 .hero-info {
   margin-left: 3.5rem;
-  color: #fff;
+  color: whitesmoke;
 }
 
 h1 {
@@ -43,6 +45,8 @@ h1 {
 h3 {
   margin-top: 0.5rem;
   font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
 .social-links {
@@ -50,9 +54,17 @@ h3 {
   align-items: center;
 }
 
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+
+.fa-github:hover {
+  color: #6cc644;
+}
+
 a {
   text-decoration: none;
-  color: #fff;
+  color: whitesmoke;
   margin-left: 1.3rem;
   font-size: 3rem;
   padding: 0;
@@ -65,12 +77,16 @@ a:nth-child(1) {
 .resume-link {
   padding: 0.6rem 0.8rem;
   background: none;
-  color: #fff;
-
+  color: whitesmoke;
   margin-left: 1.3rem;
   font-size: 1.2rem;
   border-radius: 5px;
-  border: 1px solid #fff;
+  border: 1px solid whitesmoke;
+}
+
+.resume-link:hover {
+  background-color: whitesmoke;
+  color: black;
 }
 
 .divider {
@@ -79,15 +95,14 @@ a:nth-child(1) {
   align-items: center;
   position: absolute;
   bottom: 1rem;
-
   width: 90%;
   font-size: 1.7rem;
-  color: #fff;
+  color: whitesmoke;
 }
 
 .divider-line {
   height: 2px;
-  background-color: #fff;
+  background-color: whitesmoke;
   width: 45%;
 }
 
@@ -118,7 +133,7 @@ a:nth-child(1) {
 
   /* min-width: 760px; */
   position: relative;
-  color: #fff;
+  color: whitesmoke;
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
@@ -133,7 +148,7 @@ a:nth-child(1) {
 }
 
 .arrow {
-  color: #fff;
+  color: whitesmoke;
   position: absolute;
   font-size: 2rem;
   cursor: pointer;
@@ -180,7 +195,7 @@ a:nth-child(1) {
 
 .project a {
   text-decoration: none;
-  color: #fff;
+  color: whitesmoke;
   margin-left: 1rem;
   font-size: 1.6rem;
 }
@@ -198,7 +213,7 @@ a:nth-child(1) {
   margin-left: 1.3rem;
   font-size: 1.4rem;
   border-radius: 5px;
-  border: 1px solid #fff;
+  border: 1px solid whitesmoke;
 }
 
 .dots {
@@ -238,7 +253,7 @@ a:nth-child(1) {
   flex-direction: column;
   align-items: center;
   position: relative;
-  color: #fff;
+  color: whitesmoke;
   height: 300px;
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
   background-size: cover;
