@@ -3,6 +3,10 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+span {
+  font-weight: 700;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -54,8 +58,15 @@ h3 {
   align-items: center;
 }
 
+.fa-linkedin {
+  transition: 0.4s;
+}
 .fa-linkedin:hover {
   color: #0077b5;
+}
+
+.fa-github {
+  transition: 0.4s;
 }
 
 .fa-github:hover {
@@ -82,6 +93,7 @@ a:nth-child(1) {
   font-size: 1.2rem;
   border-radius: 5px;
   border: 1px solid whitesmoke;
+  transition: 0.3s;
 }
 
 .resume-link:hover {
@@ -202,6 +214,10 @@ a:nth-child(1) {
 
 .project a:nth-child(1) {
   margin-left: 0;
+}
+
+.education-inner p:not(::first-line) {
+  padding-top: 2rem;
 }
 
 .live-link {
