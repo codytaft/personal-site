@@ -261,12 +261,20 @@ a:nth-child(1) {
 
 .background-inner {
   position: absolute;
-  bottom: 1rem;
+  bottom: 2rem;
   width: 80%;
   height: 150px;
   padding: 0 0.8rem;
+  margin: 0.5rem auto;
   overflow: scroll;
-  background: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0, 1);
+  font-weight: 500;
+  /* background: rgba(0, 0, 0, 0.8); */
+}
+
+.story-text {
+  text-align: center;
+  line-height: 1.4rem;
 }
 
 @media only screen and (max-width: 650px) {
