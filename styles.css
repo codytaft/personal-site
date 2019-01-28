@@ -10,9 +10,9 @@ body {
   justify-content: center;
   position: relative;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url('./images/codytrees.jpg') no-repeat center top;
+    url('./images/codytrees.jpg') no-repeat center bottom;
   height: 30rem;
-  background-size: contain;
+  background-size: cover;
 
   background-attachment: fixed;
 }
