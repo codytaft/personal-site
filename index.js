@@ -71,7 +71,7 @@ const projects = [
       'Twilio API.js'
     ],
     image: './images/elder-flower.png',
-    github: 'https://github.com/elder-flower'
+    github: 'https://github.com/codytaft/elder-flower'
   }
 ];
 
