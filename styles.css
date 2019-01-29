@@ -220,16 +220,22 @@ a:nth-child(1) {
   padding-top: 2rem;
 }
 
-.live-link {
+.project .live-link {
   display: inline-block;
   padding: 0 1rem;
   background: none;
   color: crimson;
 
   margin-left: 1.3rem;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   border-radius: 5px;
   border: 1px solid whitesmoke;
+
+  animation: blinkingText 1.3s infinite;
+}
+
+.project .live-link:hover {
+  background: whitesmoke;
 }
 
 .dots {
@@ -291,6 +297,21 @@ a:nth-child(1) {
 .story-text {
   text-align: center;
   line-height: 1.4rem;
+}
+
+@keyframes blinkingText {
+  0% {
+    color: crimson;
+  }
+  49% {
+    color: transparent;
+  }
+  50% {
+    color: transparent;
+  }
+  99% {
+    color: crimson;
+  }
 }
 
 @media only screen and (max-width: 650px) {
