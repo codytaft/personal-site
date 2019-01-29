@@ -57,6 +57,21 @@ const projects = [
     image: './images/whowereyou.png',
     github: 'https://github.com/TFisch/who-were-you-fe',
     live: 'https://who-were-you-app.herokuapp.com/'
+  },
+  {
+    title: 'Elder Flower',
+    description:
+      'Elder Flower is a simple application that can help a care giver stay in touch easily via sms messaging with the elderly person they are caring for. Detail has been taken to ensure easy usabilty in both UX/UI, taking into account the users possible impairments. A carer will eventually be able to assign questions to the elder that may be scheduled and answered with simple key responses.',
+    tech: [
+      'Vanilla JS',
+      'React',
+      'Node.js',
+      'Knex.js',
+      'Express.js',
+      'Twilio API.js'
+    ],
+    image: './images/elder-flower.png',
+    github: 'https://github.com/elder-flower'
   }
 ];
 
@@ -70,7 +85,9 @@ function renderSlide({ title, description, tech, image, github, live }) {
       <a href="${github}" target="_blank">
         <i class="fab fa-github"></i>
       </a>
-      <a href="${live}" target="_blank" class="live-link">Live</a>
+        <a href="${live}" target="_blank" class=${
+    live ? 'live-link' : 'hidden'
+  }>Live</a>
     </div>
     <p>${description}</p>
     <img src="${image}" alt="${title}" />
