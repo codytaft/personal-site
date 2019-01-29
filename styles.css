@@ -238,6 +238,9 @@ a:nth-child(1) {
   background: whitesmoke;
 }
 
+.hidden {
+  display: none;
+}
 .dots {
   margin-bottom: 1rem;
   font-size: 0.8rem;
