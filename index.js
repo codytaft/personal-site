@@ -16,6 +16,15 @@ const projects = [
     live: 'https://dress-the-child.herokuapp.com/'
   },
   {
+    title: 'I-Ching Oracle',
+    description:
+      'This is the I-Ching built into a PWA.  It uses the traditional Yarrow Stalk method.',
+    tech: ['JavaScript', 'JQuery', 'CSS/SASS'],
+    image: './images/I-ching.gif',
+    github: 'https://github.com/codytaft/I-Ching-PWA',
+    live: 'https://dreamy-elion-11e2e2.netlify.com/'
+  },
+  {
     title: 'The Dreaming',
     description:
       'The Dreaming is a WIP dream journal app that will allow users to connect with each other via there most common dream thems. It also be a way to map the unconscious and determine a common zeitgeist of any given moment.',
