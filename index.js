@@ -20,7 +20,7 @@ const projects = [
     description:
       'This is the I-Ching built into a PWA.  It uses the traditional Yarrow Stalk method.',
     tech: ['JavaScript', 'JQuery', 'CSS/SASS'],
-    image: './images/I-ching.gif',
+    image: './images/I-Ching.gif',
     github: 'https://github.com/codytaft/I-Ching-PWA',
     live: 'https://dreamy-elion-11e2e2.netlify.com/'
   },
